@@ -1,100 +1,184 @@
 {
-    "doctor" : [
-  {
-    "id": 1,
-    "name": "Dr. Arun Selvy V",
-    "specialization": "Cardiologist",
-    "photo": "http://localhost:5173/assets/doctor1.jpg",
-    "email": "arun.selvy.v@example.com",
-    "contact": "9876543210",
-    "dayVisited": "Monday, Wednesday",
-    "chambers":[
-      "Hyderabad",
-      "Chennai",
-      "Bengaluru"
-    ],
-    "available": true,
-    "hospital":"XYZ"
-  },
-  {
-    "id": 2,
-    "name": "Dr. Nilesh Tripathy",
-    "specialization": "Heart Surgeon",
-    "photo": "http://localhost:5173/assets/doctor2.jpg",
-    "email": "nilesh_tripathy@example.com",
-    "contact": "9123456780",
-    "dayVisited": "Tuesday, Thursday",
-    "chambers":[
-      "Hyderabad",
-      "Chennai",
-      "Bengaluru"
-    ],
-    "available": false,
-    "hospital":"NN"
-  },
-  {
-    "id": 3,
-    "name": "Dr. Paul Carlsen",
-    "specialization": "Cancer Specialist",
-    "photo": "http://localhost:5173/assets/doctor3.jpg",
-    "email": "paul carlsen@example.com",
-    "contact": "9988776655",
-    "dayVisited": "Friday, Saturday",
-    "chambers":[
-      "Hyderabad",
-      "Chennai",
-      "Bengaluru"
-    ],
-    "available": true,
-    "hospital":"JHJSHW"
-  },
-  {
-    "id": 4,
-    "name": "Dr. M.N. Nellore",
-    "specialization": "Spine Surgeon",
-    "photo": "http://localhost:5173/assets/doctor4.jpg",
-    "email": "m.n. nellore@example.com",
-    "contact": "9090909090",
-    "dayVisited": "Tuesday, Friday",
-    "chambers":[
-      "Hyderabad",
-      "Chennai",
-      "Bengaluru"
-    ],
-    "available": false,
-    "hospital":"IHHUH"
-  },
-  {
-    "id": 5,
-    "name": "Dr. Paras Chillangore",
-    "specialization": "ENT",
-    "photo": "http://localhost:5173/assets/doctor5.jpg",
-    "email": "paras_chillangore@example.com",
-    "contact": "9090909090",
-    "dayVisited": "Monday, Saturday",
-    "chambers":[
-      "Hyderabad",
-      "Chennai",
-      "Bengaluru"
-    ],
-    "available": false,
-    "hospital":"RTVC"
-  },
-  {
-    "id": 6,
-    "name": "Dr. A.V. Balaji",
-    "specialization": "Cancer Specialist",
-    "photo": "http://localhost:5173/assets/doctor6.jpg",
-    "email": "a.v.balaji@example.com",
-    "contact": "9090909090",
-    "dayVisited": "Monday, Tuesday, Wednesday",
-    "available": false,
-    "chambers":[
-      "Hyderabad",
-      "Chennai",
-      "Bengaluru"
-    ],
-    "hospital":"ABC"
-  }
-]
+  "doctor": [
+    {
+      "id": 7,
+      "name": "Dr. Anita Rao",
+      "specialization": "General Physician",
+      "photo": "http://localhost:5173/assets/doctor1.jpg",
+      "email": "dr_anita_rao@example.com",
+      "contact": "9416913477",
+      "dayVisited": "Friday, Monday, Saturday, Tuesday",
+      "chambers": ["Pune", "Ahmedabad", "Delhi"],
+      "available": true,
+      "hospital": "Manipal"
+    },
+    {
+      "id": 8,
+      "name": "Dr. Vikram Desai",
+      "specialization": "Pediatrician",
+      "photo": "http://localhost:5173/assets/doctor2.jpg",
+      "email": "dr_vikram_desai@example.com",
+      "contact": "9864169200",
+      "dayVisited": "Thursday, Saturday",
+      "chambers": ["Kolkata", "Mumbai", "Ahmedabad"],
+      "available": false,
+      "hospital": "AIIMS"
+    },
+    {
+      "id": 9,
+      "name": "Dr. Meera Iyer",
+      "specialization": "Neurologist",
+      "photo": "http://localhost:5173/assets/doctor3.jpg",
+      "email": "dr_meera_iyer@example.com",
+      "contact": "9723668067",
+      "dayVisited": "Wednesday, Monday",
+      "chambers": ["Ahmedabad", "Mumbai", "Kolkata"],
+      "available": false,
+      "hospital": "Max"
+    },
+    {
+      "id": 10,
+      "name": "Dr. Rajiv Menon",
+      "specialization": "Endocrinologist",
+      "photo": "http://localhost:5173/assets/doctor4.jpg",
+      "email": "dr_rajiv_menon@example.com",
+      "contact": "9398727978",
+      "dayVisited": "Wednesday, Saturday",
+      "chambers": ["Ahmedabad", "Mumbai", "Pune"],
+      "available": false,
+      "hospital": "Max"
+    },
+    {
+      "id": 11,
+      "name": "Dr. Sneha Kapoor",
+      "specialization": "Neurologist",
+      "photo": "http://localhost:5173/assets/doctor5.jpg",
+      "email": "dr_sneha_kapoor@example.com",
+      "contact": "9234538551",
+      "dayVisited": "Wednesday, Saturday, Monday",
+      "chambers": ["Mumbai", "Pune", "Ahmedabad"],
+      "available": false,
+      "hospital": "Fortis"
+    },
+    {
+      "id": 12,
+      "name": "Dr. Arjun Reddy",
+      "specialization": "General Physician",
+      "photo": "http://localhost:5173/assets/doctor6.jpg",
+      "email": "dr_arjun_reddy@example.com",
+      "contact": "9360689461",
+      "dayVisited": "Thursday, Saturday",
+      "chambers": ["Pune", "Ahmedabad", "Mumbai"],
+      "available": true,
+      "hospital": "Manipal"
+    },
+    {
+      "id": 13,
+      "name": "Dr. Kavita Sharma",
+      "specialization": "General Physician",
+      "photo": "http://localhost:5173/assets/doctor7.jpg",
+      "email": "dr_kavita_sharma@example.com",
+      "contact": "9259350811",
+      "dayVisited": "Friday, Wednesday",
+      "chambers": ["Kolkata", "Ahmedabad", "Mumbai"],
+      "available": true,
+      "hospital": "Max"
+    },
+    {
+      "id": 14,
+      "name": "Dr. Manoj Pillai",
+      "specialization": "Radiologist",
+      "photo": "http://localhost:5173/assets/doctor8.jpg",
+      "email": "dr_manoj_pillai@example.com",
+      "contact": "9182644883",
+      "dayVisited": "Wednesday, Saturday, Friday, Tuesday",
+      "chambers": ["Kolkata", "Mumbai", "Delhi"],
+      "available": true,
+      "hospital": "Fortis"
+    },
+    {
+      "id": 15,
+      "name": "Dr. Neha Verma",
+      "specialization": "Oncologist",
+      "photo": "http://localhost:5173/assets/doctor9.jpg",
+      "email": "dr_neha_verma@example.com",
+      "contact": "9428927551",
+      "dayVisited": "Thursday, Tuesday",
+      "chambers": ["Kolkata", "Mumbai", "Delhi"],
+      "available": true,
+      "hospital": "Manipal"
+    },
+    {
+      "id": 16,
+      "name": "Dr. Suresh Patil",
+      "specialization": "Dermatologist",
+      "photo": "http://localhost:5173/assets/doctor10.jpg",
+      "email": "dr_suresh_patil@example.com",
+      "contact": "9024411973",
+      "dayVisited": "Monday, Wednesday, Thursday",
+      "chambers": ["Delhi", "Mumbai", "Pune"],
+      "available": false,
+      "hospital": "Apollo"
+    },
+    {
+      "id": 17,
+      "name": "Dr. Priya Nair",
+      "specialization": "Orthopedic",
+      "photo": "http://localhost:5173/assets/doctor11.jpg",
+      "email": "dr_priya_nair@example.com",
+      "contact": "9876543211",
+      "dayVisited": "Tuesday, Friday",
+      "chambers": ["Mumbai", "Delhi", "Ahmedabad"],
+      "available": true,
+      "hospital": "AIIMS"
+    },
+    {
+      "id": 18,
+      "name": "Dr. Rohan Joshi",
+      "specialization": "Psychiatrist",
+      "photo": "http://localhost:5173/assets/doctor12.jpg",
+      "email": "dr_rohan_joshi@example.com",
+      "contact": "9123456789",
+      "dayVisited": "Monday, Thursday",
+      "chambers": ["Pune", "Kolkata", "Delhi"],
+      "available": false,
+      "hospital": "Fortis"
+    },
+    {
+      "id": 19,
+      "name": "Dr. Deepa Krishnan",
+      "specialization": "Gastroenterologist",
+      "photo": "http://localhost:5173/assets/doctor13.jpg",
+      "email": "dr_deepa_krishnan@example.com",
+      "contact": "9988776654",
+      "dayVisited": "Wednesday, Friday",
+      "chambers": ["Ahmedabad", "Mumbai", "Kolkata"],
+      "available": true,
+      "hospital": "Apollo"
+    },
+    {
+      "id": 20,
+      "name": "Dr. Karan Malhotra",
+      "specialization": "Radiologist",
+      "photo": "http://localhost:5173/assets/doctor14.jpg",
+      "email": "dr_karan_malhotra@example.com",
+      "contact": "9090909091",
+      "dayVisited": "Tuesday, Saturday",
+      "chambers": ["Delhi", "Pune", "Kolkata"],
+      "available": false,
+      "hospital": "Max"
+    },
+    {
+      "id": 21,
+      "name": "Dr. Lata Singh",
+      "specialization": "Oncologist",
+      "photo": "http://localhost:5173/assets/doctor15.jpg",
+      "email": "dr_lata_singh@example.com",
+      "contact": "9012345678",
+      "dayVisited": "Monday, Friday",
+      "chambers": ["Mumbai", "Ahmedabad", "Delhi"],
+      "available": true,
+      "hospital": "AIIMS"
+    }
+  ]
 }

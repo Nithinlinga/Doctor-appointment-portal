@@ -14,10 +14,19 @@ export const SearchProvider = ({ children }) => {
       fetch("http://localhost:3000/doctor")
         .then((response) => response.json())
         .then((response) => {
+          
+          
           if(input===""){
             setSearchResults(response)
           }else{
-            setSearchResults(response.filter(res=>res.name.toLowerCase().includes(input)))
+            const result = response.filter(emp =>
+              Object.values(emp).some(value =>
+                String(value).toLowerCase().includes(input.toLowerCase())
+              )
+            );
+    
+            console.log("Search",result);
+            setSearchResults(result)
           } 
         });
     } catch (error) {
