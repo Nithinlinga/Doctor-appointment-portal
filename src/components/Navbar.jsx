@@ -4,6 +4,7 @@ import { SearchContext } from "../contextApi/DoctorProvider";
 import { useState } from "react";
 import { useEffect } from "react";
 import { IoSearch } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const { fetchData, searchQuery } = useContext(SearchContext);
   const [input, setInput] = useState("");
@@ -42,24 +43,24 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="#home" className="hover:text-yellow-300">
+            <NavLink to={"/"} className="hover:text-yellow-300">
               Home
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#about" className="hover:text-yellow-300">
+            <NavLink to={"/about"} className="hover:text-yellow-300">
               About
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#contact" className="hover:text-yellow-300">
+            <NavLink to={"/contact-us"}  className="hover:text-yellow-300">
               Contact Us
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#help" className="hover:text-yellow-300">
+            <NavLink to={"/help"} className="hover:text-yellow-300">
               Help
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>
