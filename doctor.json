@@ -1,0 +1,100 @@
+{
+    "doctor" : [
+  {
+    "id": 1,
+    "name": "Dr. Arun Selvy V",
+    "specialization": "Cardiologist",
+    "photo": "http://localhost:5173/assets/doctor1.jpg",
+    "email": "arun.selvy.v@example.com",
+    "contact": "9876543210",
+    "dayVisited": "Monday, Wednesday",
+    "chambers":[
+      "Hyderabad",
+      "Chennai",
+      "Bengaluru"
+    ],
+    "available": true,
+    "hospital":"XYZ"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Nilesh Tripathy",
+    "specialization": "Heart Surgeon",
+    "photo": "http://localhost:5173/assets/doctor2.jpg",
+    "email": "nilesh_tripathy@example.com",
+    "contact": "9123456780",
+    "dayVisited": "Tuesday, Thursday",
+    "chambers":[
+      "Hyderabad",
+      "Chennai",
+      "Bengaluru"
+    ],
+    "available": false,
+    "hospital":"NN"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Paul Carlsen",
+    "specialization": "Cancer Specialist",
+    "photo": "http://localhost:5173/assets/doctor3.jpg",
+    "email": "paul carlsen@example.com",
+    "contact": "9988776655",
+    "dayVisited": "Friday, Saturday",
+    "chambers":[
+      "Hyderabad",
+      "Chennai",
+      "Bengaluru"
+    ],
+    "available": true,
+    "hospital":"JHJSHW"
+  },
+  {
+    "id": 4,
+    "name": "Dr. M.N. Nellore",
+    "specialization": "Spine Surgeon",
+    "photo": "http://localhost:5173/assets/doctor4.jpg",
+    "email": "m.n. nellore@example.com",
+    "contact": "9090909090",
+    "dayVisited": "Tuesday, Friday",
+    "chambers":[
+      "Hyderabad",
+      "Chennai",
+      "Bengaluru"
+    ],
+    "available": false,
+    "hospital":"IHHUH"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Paras Chillangore",
+    "specialization": "ENT",
+    "photo": "http://localhost:5173/assets/doctor5.jpg",
+    "email": "paras_chillangore@example.com",
+    "contact": "9090909090",
+    "dayVisited": "Monday, Saturday",
+    "chambers":[
+      "Hyderabad",
+      "Chennai",
+      "Bengaluru"
+    ],
+    "available": false,
+    "hospital":"RTVC"
+  },
+  {
+    "id": 6,
+    "name": "Dr. A.V. Balaji",
+    "specialization": "Cancer Specialist",
+    "photo": "http://localhost:5173/assets/doctor6.jpg",
+    "email": "a.v.balaji@example.com",
+    "contact": "9090909090",
+    "dayVisited": "Monday, Tuesday, Wednesday",
+    "available": false,
+    "chambers":[
+      "Hyderabad",
+      "Chennai",
+      "Bengaluru"
+    ],
+    "hospital":"ABC"
+  }
+]
+}
