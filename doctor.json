@@ -183,7 +183,7 @@
   ],
   "chambers":[
     {
-      "id": "CH001",
+      "id": 1,
       "name": "Greenwood Legal Chamber",
       "location": {
         "address": "12A, MG Road",
@@ -200,7 +200,7 @@
       "establishedYear": 2005
     },
     {
-      "id": "CH002",
+      "id": 2,
       "name": "Silver Oak Law Associates",
       "location": {
         "address": "45, Race Course",
@@ -217,7 +217,7 @@
       "establishedYear": 2010
     },
     {
-      "id": "CH003",
+      "id": 3,
       "name": "Lex & Co.",
       "location": {
         "address": "3rd Floor, Avinashi Road Complex",
@@ -234,7 +234,7 @@
       "establishedYear": 2012
     },
     {
-      "id": "CH004",
+      "id": 4,
       "name": "Justice Point",
       "location": {
         "address": "22, Peelamedu Main Road",
@@ -251,7 +251,7 @@
       "establishedYear": 2008
     },
     {
-      "id": "CH005",
+      "id": 5,
       "name": "LawBridge Associates",
       "location": {
         "address": "1st Cross, Gandhipuram",
@@ -268,7 +268,7 @@
       "establishedYear": 2015
     },
     {
-      "id": "CH006",
+      "id": 6,
       "name": "Equity Legal Hub",
       "location": {
         "address": "Opp. Collector Office, Redfields",
@@ -285,7 +285,7 @@
       "establishedYear": 2011
     },
     {
-      "id": "CH007",
+      "id": 7,
       "name": "Advocate's Den",
       "location": {
         "address": "Sathy Road, Saravanampatti",
@@ -302,7 +302,7 @@
       "establishedYear": 2013
     },
     {
-      "id": "CH008",
+      "id": 8,
       "name": "Legal Roots",
       "location": {
         "address": "Thudiyalur Main Road",
@@ -319,7 +319,7 @@
       "establishedYear": 2009
     },
     {
-      "id": "CH009",
+      "id": 9,
       "name": "The Law Circle",
       "location": {
         "address": "Kovaipudur, Law Complex",
@@ -336,7 +336,7 @@
       "establishedYear": 2014
     },
     {
-      "id": "CH010",
+      "id": 10,
       "name": "Prime Legal Solutions",
       "location": {
         "address": "Hope College Junction",

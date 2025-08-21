@@ -72,7 +72,7 @@ export const SearchProvider = ({ children }) => {
 
   return (
     <SearchContext.Provider
-      value={{ searchQuery,searchResults,chambers,fetchChambers, setSearchQuery,fetchData,loading }}
+      value={{ searchQuery,searchResults,setSearchResults,chambers,fetchChambers,setChambers, setSearchQuery,fetchData,loading }}
     >
       {children }
     </SearchContext.Provider>

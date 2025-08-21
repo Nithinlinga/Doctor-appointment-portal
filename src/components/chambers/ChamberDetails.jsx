@@ -1,26 +1,39 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { SearchContext } from '../../contextApi/DoctorProvider';
+import { IoIosArrowBack } from 'react-icons/io';
 
 const ChamberDetails = () => {
   const {id}=useParams();
   console.log(id)
   const {chambers,fetchChambers}=useContext(SearchContext)
   const [selectedChamber,setSelectedChamber]=useState([]);
-
+  const navigate=useNavigate()
+useEffect(()=>{
+  fetchChambers("")
+},[])
   useEffect(() => {
-    fetchChambers("")
     console.log(chambers,"jndj")
-  const chamber = chambers.find((cham) => cham.id === id);
-  setSelectedChamber(chamber);
-}, []);
+    if(chambers && chambers.length>0){
 
-  console.log(chambers,selectedChamber)
+      const chamber = chambers.find((cham) => cham.id === parseInt(id));
+      setSelectedChamber(chamber);
+    }
+}, [id,chambers]);
+
+  console.log(chambers.find((cham)=>cham.id===7),selectedChamber)
   return (
+    <>
+    <button
+            onClick={() => navigate("/chamber")}
+            className="bg-blue-600 text-white px-2 m-4 py-2 rounded hover:bg-blue-700"
+            >
+            <IoIosArrowBack />
+          </button>
     <div
       className="fixed bg-opacity-60 flex justify-center items-center "
- 
-    >
+      
+      >
       <div
         className="bg-white p-8 flex justify-center items-center rounded-lg w-[90vw] max-w-[800px] max-h-[90vh] overflow-y-auto relative animate-fadeIn"
         
@@ -58,6 +71,7 @@ const ChamberDetails = () => {
               </div>
       </div>
     </div>
+              </>
   )
 }
 

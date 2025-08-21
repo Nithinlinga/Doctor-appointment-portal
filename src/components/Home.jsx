@@ -5,7 +5,7 @@ import Card from './Card'
 const Home = () => {
   return (
     <>
-        <Card/>
+       <h1 className='text-center'>This is Home</h1>
     </>
   )
 }

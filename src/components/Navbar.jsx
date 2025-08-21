@@ -48,6 +48,11 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
+            <NavLink to={"/doctors"} className="hover:text-yellow-300">
+              Doctors
+            </NavLink>
+          </li>
+          <li>
             <NavLink to={"/chamber"} className="hover:text-yellow-300">
               Chambers
             </NavLink>
