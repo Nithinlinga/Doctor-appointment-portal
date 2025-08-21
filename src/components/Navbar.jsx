@@ -23,8 +23,8 @@ const Navbar = () => {
       <div className="flex justify-between items-center">
         <h1 className="text-xl font-bold">Doctor Appointment Portal</h1>
         <ul className="flex space-x-6">
-          <li className="flex items-center relative">
-            <input
+          {/* <li className="flex items-center relative"> */}
+            {/* <input
               type="text"
               className="border-2 text-white border-amber-50 rounded-sm pr-10 pl-2 py-1"
               name="search"
@@ -40,11 +40,16 @@ const Navbar = () => {
                 // onClick={handleIconClick}
               />
             )}
-          </li>
+          </li> */}
 
           <li>
             <NavLink to={"/"} className="hover:text-yellow-300">
               Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to={"/chamber"} className="hover:text-yellow-300">
+              Chambers
             </NavLink>
           </li>
           <li>

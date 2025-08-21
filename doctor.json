@@ -180,5 +180,177 @@
       "available": true,
       "hospital": "AIIMS"
     }
+  ],
+  "chambers":[
+    {
+      "id": "CH001",
+      "name": "Greenwood Legal Chamber",
+      "location": {
+        "address": "12A, MG Road",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "postalCode": "641018",
+        "country": "India"
+      },
+      "contact": {
+        "phone": "+91-9876543210",
+        "email": "greenwood@legalchambers.in"
+      },
+      "specialization": "Corporate Law",
+      "establishedYear": 2005
+    },
+    {
+      "id": "CH002",
+      "name": "Silver Oak Law Associates",
+      "location": {
+        "address": "45, Race Course",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "postalCode": "641018",
+        "country": "India"
+      },
+      "contact": {
+        "phone": "+91-9123456780",
+        "email": "silveroak@lawassociates.in"
+      },
+      "specialization": "Criminal Law",
+      "establishedYear": 2010
+    },
+    {
+      "id": "CH003",
+      "name": "Lex & Co.",
+      "location": {
+        "address": "3rd Floor, Avinashi Road Complex",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "postalCode": "641037",
+        "country": "India"
+      },
+      "contact": {
+        "phone": "+91-9988776655",
+        "email": "contact@lexandco.in"
+      },
+      "specialization": "Family Law",
+      "establishedYear": 2012
+    },
+    {
+      "id": "CH004",
+      "name": "Justice Point",
+      "location": {
+        "address": "22, Peelamedu Main Road",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "postalCode": "641004",
+        "country": "India"
+      },
+      "contact": {
+        "phone": "+91-9001234567",
+        "email": "info@justicepoint.in"
+      },
+      "specialization": "Civil Litigation",
+      "establishedYear": 2008
+    },
+    {
+      "id": "CH005",
+      "name": "LawBridge Associates",
+      "location": {
+        "address": "1st Cross, Gandhipuram",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "postalCode": "641012",
+        "country": "India"
+      },
+      "contact": {
+        "phone": "+91-9012345678",
+        "email": "lawbridge@legalmail.in"
+      },
+      "specialization": "Intellectual Property",
+      "establishedYear": 2015
+    },
+    {
+      "id": "CH006",
+      "name": "Equity Legal Hub",
+      "location": {
+        "address": "Opp. Collector Office, Redfields",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "postalCode": "641018",
+        "country": "India"
+      },
+      "contact": {
+        "phone": "+91-9098765432",
+        "email": "equityhub@lawfirm.in"
+      },
+      "specialization": "Tax Law",
+      "establishedYear": 2011
+    },
+    {
+      "id": "CH007",
+      "name": "Advocate's Den",
+      "location": {
+        "address": "Sathy Road, Saravanampatti",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "postalCode": "641035",
+        "country": "India"
+      },
+      "contact": {
+        "phone": "+91-9345678901",
+        "email": "den@advocates.in"
+      },
+      "specialization": "Environmental Law",
+      "establishedYear": 2013
+    },
+    {
+      "id": "CH008",
+      "name": "Legal Roots",
+      "location": {
+        "address": "Thudiyalur Main Road",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "postalCode": "641034",
+        "country": "India"
+      },
+      "contact": {
+        "phone": "+91-9887654321",
+        "email": "roots@legalroots.in"
+      },
+      "specialization": "Real Estate Law",
+      "establishedYear": 2009
+    },
+    {
+      "id": "CH009",
+      "name": "The Law Circle",
+      "location": {
+        "address": "Kovaipudur, Law Complex",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "postalCode": "641042",
+        "country": "India"
+      },
+      "contact": {
+        "phone": "+91-9871234567",
+        "email": "circle@lawcircle.in"
+      },
+      "specialization": "Labour Law",
+      "establishedYear": 2014
+    },
+    {
+      "id": "CH010",
+      "name": "Prime Legal Solutions",
+      "location": {
+        "address": "Hope College Junction",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "postalCode": "641015",
+        "country": "India"
+      },
+      "contact": {
+        "phone": "+91-9765432109",
+        "email": "prime@legal-solutions.in"
+      },
+      "specialization": "Cyber Law",
+      "establishedYear": 2016
+    }
   ]
 }
