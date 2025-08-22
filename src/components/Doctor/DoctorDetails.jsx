@@ -6,16 +6,20 @@ import { IoIosArrowBack } from 'react-icons/io';
 const DoctorDetails = () => {
   const { id } = useParams();
   const { searchResults, loading, fetchData } = useContext(SearchContext)
-  const [selectedDoctor, setSelectedDoctor] = useState([]);
-  const navigate=useNavigate()
+  const [selectedDoctor, setSelectedDoctor] = useState(null);
+  const navigate = useNavigate()
 
   useEffect(() => {
-    fetchData('');
-  }, []);
+
+    if (!Array.isArray(searchResults) || searchResults.length === 0) {
+      fetchData('');
+    }
+
+  }, [fetchData, searchResults?.length]);
 
   useEffect(() => {
     if (searchResults && searchResults.length > 0) {
-      const doctor = searchResults.find((doc) => doc.id === parseInt(id));
+      const doctor = searchResults.find((doc) => String(doc.id) === String(id));
       setSelectedDoctor(doctor);
     }
   }, [searchResults, id]);
@@ -27,49 +31,49 @@ const DoctorDetails = () => {
       <button
         onClick={() => navigate("/doctors")}
         className="bg-blue-600 text-white px-2 m-4 py-2 rounded hover:bg-blue-700"
-        >
+      >
         <IoIosArrowBack />
       </button>
-    <div
-      className="fixed bg-opacity-60 flex justify-center items-center "
-      
-      >
       <div
-        className="bg-white p-8 flex justify-center items-center rounded-lg w-[90vw] max-w-[800px] max-h-[90vh] overflow-y-auto relative animate-fadeIn"
+        className="fixed bg-opacity-60 flex justify-center items-center "
 
       >
-        <div className=" flex">
+        <div
+          className="bg-white p-8 flex justify-center items-center rounded-lg w-[90vw] max-w-[800px] max-h-[90vh] overflow-y-auto relative animate-fadeIn"
 
-          <div className=" h-[300px] overflow-hidden">
-            <img
-              className=" h-full object-cover"
-              src={selectedDoctor?.photo}
-              alt={selectedDoctor?.name}
-            />
-          </div>
-          <div className="ml-4 mt-8">
+        >
+          <div className=" flex">
 
-            <h2><strong>Name:</strong> {selectedDoctor?.name}</h2>
-            <p>
-              <strong>Speciality: </strong> {selectedDoctor?.specialization}
-            </p>
-            <p>
-              <strong>Hospital: </strong> {selectedDoctor?.hospital}
-            </p>
-            <p>
-              <strong>Phone: </strong> {selectedDoctor?.contact}
-            </p>
-            <p>
-              <strong>Email: </strong> {selectedDoctor?.email}
-            </p>
-            <p>
-              <strong>Days Visited: </strong> {selectedDoctor?.dayVisited}
-            </p>
+            <div className=" h-[300px] overflow-hidden">
+              <img
+                className=" h-full object-cover"
+                src={selectedDoctor?.photo}
+                alt={selectedDoctor?.name}
+              />
+            </div>
+            <div className="ml-4 mt-8">
+
+              <h2><strong>Name:</strong> {selectedDoctor?.name}</h2>
+              <p>
+                <strong>Speciality: </strong> {selectedDoctor?.specialization}
+              </p>
+              <p>
+                <strong>Hospital: </strong> {selectedDoctor?.hospital}
+              </p>
+              <p>
+                <strong>Phone: </strong> {selectedDoctor?.contact}
+              </p>
+              <p>
+                <strong>Email: </strong> {selectedDoctor?.email}
+              </p>
+              <p>
+                <strong>Days Visited: </strong> {selectedDoctor?.dayVisited}
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-              </>
+    </>
   )
 }
 

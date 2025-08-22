@@ -7,7 +7,7 @@ export const SearchProvider = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   const [chambers, setChambers] = useState([]);
-  const [loading, setLoading] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   const fetchData = (input) => {
     setLoading(true);
